@@ -11,7 +11,7 @@ module.exports = function(config) {
         urlEscapingCharsetSet: 'utf-8', // URLEscapingCharset
         numberFormat: '0.##########', // 数字格式化方式
     });
-    return function(tpl, cb, dataObject) {
+    return function(tpl, dataObject, cb) {
         if (tpl.startsWith('/')) tpl = tpl.slice(1);
         render.parse(tpl, dataObject)
             .then(cb)
