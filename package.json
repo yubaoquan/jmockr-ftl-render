@@ -1,0 +1,26 @@
+{
+  "name": "@ybq/jmockr-ftl-render",
+  "version": "0.0.1",
+  "description": "Freemarker template render for jmockr.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yubaoquan/jmockr-ftl-render.git"
+  },
+  "keywords": [
+    "render",
+    "freemarker"
+  ],
+  "author": "yubaoquan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yubaoquan/jmockr-ftl-render/issues"
+  },
+  "homepage": "https://github.com/yubaoquan/jmockr-ftl-render#readme",
+  "dependencies": {
+    "fast-ftl": "^1.8.3"
+  }
+}
